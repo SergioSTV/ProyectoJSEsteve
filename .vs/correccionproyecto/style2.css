@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+
+body{background-color: black;}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    border-style: solid;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-radius: 50%;
+    height: 105px;
+    
+}
+
+.navegador_lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   }
+   
+.navegador_lista li{
+    margin: 25px;
+    border: solid 2px;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px;
+    border-color: blueviolet;
+}
+
+h1{
+    color: antiquewhite;
+}
+
+img{
+    filter:brightness(1.1)
+    mix-blend-mode:multiply;
+}
+p{
+    color: antiquewhite;
+}
+    
+
+
+
+
+    
+
+

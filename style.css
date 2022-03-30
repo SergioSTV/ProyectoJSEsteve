@@ -1,0 +1,254 @@
+body {
+  background-color: black;
+  background-image: url("images/fondo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  
+}
+
+body{background-color: black;}
+
+hr{
+  color: blueviolet;
+  border-width: 1px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logocontainer{
+  padding-top: 20px;
+}
+
+#sign-up{
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+.logo{
+  border-style: solid;
+  border-width: 3px;
+  border-color: blueviolet;
+  border-radius: 55%;
+  height: 100px;
+
+  
+}
+.logo:hover{
+  filter: grayscale(80%);
+ 
+}
+.header input{
+  padding: 6px;
+}
+#barra_buscador{
+  width: 400px;
+  
+}
+
+.navegador_lista{
+  display: flex;
+  justify-content: center;
+  font-size: 21px;
+  list-style: none;
+  position: relative;
+  
+  border-style: solid;
+  border-width: 1px;
+  border-color: blueviolet;
+  border-radius: 5%;
+  margin-top: 30px;
+ }
+ 
+
+
+.navegador_lista li{
+  margin: 1px;
+  display: flex;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 1px;
+  }
+.navegador_lista li:hover{
+  background-color: rgb(105, 23, 182);
+  
+}
+
+#titulo-index{
+  display: flex;
+  margin-left: 300px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-decoration: none;
+
+}
+.breve-resenia{
+  display: flex;
+  font-family: 'Patrick Hand', cursive;
+  
+  
+  
+}
+#quien_info{
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-family:'Patrick Hand', cursive;
+  font-size: 15px
+
+}
+
+#entrevista{
+  margin-left: 30px;
+  background-color: black;
+}
+
+
+#titulo_ubi{
+  display: flex;
+  margin-left: 300px;
+  margin-top: 60px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-decoration: none;
+  }
+#ubimaps{
+  display: flex;
+  margin-top: 50px;
+  margin-left: 30px;
+  
+}
+
+#streeview-gps{
+  margin-left: 15px;
+  background-color: black;
+  box-shadow: 2px 2px 3px 2px white;
+}
+ 
+footer{
+  align-items: flex-end;
+}
+
+
+
+p{color: antiquewhite;
+width: 100%;}
+
+
+.btn-whatsapp{
+  z-index: 1;
+  width: auto;
+  position: fixed;
+  
+}
+
+
+.boton{
+  width: 100px;
+}
+a {
+  text-decoration: none;
+
+  color: #c6c0cf;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: auto;
+  margin: 30px;
+  justify-items: auto;
+  align-items: center;
+}
+
+
+
+
+span strong {
+  color: chartreuse;
+}
+span {
+  color: antiquewhite;
+}
+iframe {
+  border-width: 1px;
+  border-color: blueviolet;
+  border-style: groove;
+  padding: 10px;
+}
+
+
+.caja-contenedora {
+  /*Caja de la página de eventos*/
+ overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  border-width: 10px;
+  image-rendering: optimizeQuality;
+}
+
+.caja-formulario {
+  display: table-caption;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.mas-info{
+  list-style: none;
+}
+footer {
+  text-align: center;
+}
+
+.container-suplementos{
+  display: grid;
+  margin-left: 100px;
+  margin-right: 100px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.producto_img{
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 200px;
+  padding: 30px;
+}
+
+.container-prod{
+  background-color: #454747;
+  border-radius: 3px;
+  opacity: 0.7;
+  box-sizing:content-box;
+  box-shadow: 3px 2px 2px 2px rgb(0, 0, 0 ,0.50);
+}
+.container-prod:hover{
+  box-shadow: 12px 10px 10px 10px rgb(0, 0, 0 ,0.50) ;
+  transform: translateY(-3%)
+}
+
+.prod_text{
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
