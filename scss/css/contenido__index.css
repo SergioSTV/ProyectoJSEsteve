@@ -1,0 +1,63 @@
+#titulo-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 300px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#titulo-index .breve-resenia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Patrick Hand', cursive;
+}
+
+#titulo-index .breve-resenia #quien_info {
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 15px;
+}
+
+iframe {
+  border-width: 1px;
+  border-color: blueviolet;
+  border-style: groove;
+  padding: 10px;
+}
+
+iframe #entrevista {
+  margin-left: 30px;
+  background-color: black;
+}
+
+#titulo_ubi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 300px;
+  margin-top: 60px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#ubimaps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+#ubimaps #streeview-gps {
+  margin-left: 15px;
+  background-color: black;
+  -webkit-box-shadow: 2px 2px 3px 2px white;
+          box-shadow: 2px 2px 3px 2px white;
+}
+/*# sourceMappingURL=contenido__index.css.map */

@@ -1,0 +1,19 @@
+
+  .card{
+    border-color: blueviolet;
+    border-width: 2px;
+    :hover{box-shadow: 12px 10px 10px 10px rgba(0, 0, 0 ,0.50) ;
+        transform: translateY(-3%)  }
+        .card-body{
+            background: rgb(112,112,115);
+          background: linear-gradient(29deg, rgba(112,112,115,1) 0%, rgba(202,202,211,1) 29%, rgba(235,241,242,1) 100%);
+          
+          .card-text{
+            color: black;
+          }
+        }
+   
+  }
+  
+  
+ 

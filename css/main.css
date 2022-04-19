@@ -1,0 +1,263 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logocontainer {
+  padding-top: 20px;
+}
+
+.header .logocontainer .logo {
+  border-style: solid;
+  border-width: 3px;
+  border-color: blueviolet;
+  border-radius: 55%;
+  height: 100px;
+}
+
+.header .logocontainer .logo :hover {
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+}
+
+.header .navegador_lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 21px;
+  list-style: none;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-color: blueviolet;
+  border-radius: 5%;
+  margin-top: 30px;
+}
+
+.header .navegador_lista li {
+  margin: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 1px;
+}
+
+.header .navegador_lista li :hover {
+  background-color: #6917b6;
+}
+
+.header .navegador_lista li {
+  margin: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 1px;
+}
+
+#sign-up {
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+.header input {
+  padding: 6px;
+}
+
+#barra_buscador {
+  width: 400px;
+}
+
+#titulo-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 300px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#titulo-index .breve-resenia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Patrick Hand', cursive;
+}
+
+#titulo-index .breve-resenia #quien_info {
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 15px;
+}
+
+iframe {
+  border-width: 1px;
+  border-color: blueviolet;
+  border-style: groove;
+  padding: 10px;
+}
+
+iframe #entrevista {
+  margin-left: 30px;
+  background-color: black;
+}
+
+#titulo_ubi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 300px;
+  margin-top: 60px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#ubimaps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+#ubimaps #streeview-gps {
+  margin-left: 15px;
+  background-color: black;
+  -webkit-box-shadow: 2px 2px 3px 2px white;
+          box-shadow: 2px 2px 3px 2px white;
+}
+
+.card {
+  border-color: blueviolet;
+  border-width: 2px;
+}
+
+.card :hover {
+  -webkit-box-shadow: 12px 10px 10px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 12px 10px 10px 10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+}
+
+.card .card-body {
+  background: #707073;
+  background: linear-gradient(29deg, #707073 0%, #cacad3 29%, #ebf1f2 100%);
+}
+
+.card .card-body .card-text {
+  color: black;
+}
+
+.container-suplementos {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 100px;
+  margin-right: 100px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.container-suplementos .container-prod {
+  background-color: #454747;
+  border-radius: 3px;
+  opacity: 0.7;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  -webkit-box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.container-suplementos .container-prod :hover {
+  -webkit-box-shadow: 12px 10px 10px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 12px 10px 10px 10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+}
+
+.container-suplementos .container-prod .producto_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 250px;
+  width: 200px;
+  padding: 30px;
+}
+
+.container-suplementos .container-prod .producto_img .prod_text {
+  padding: 20px;
+}
+
+body {
+  background-color: black;
+  background-image: url("images/fondo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: black;
+}
+
+hr {
+  color: blueviolet;
+  border-width: 1px;
+}
+
+footer {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+p {
+  color: antiquewhite;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #c6c0cf;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: auto;
+  margin: 30px;
+  justify-items: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+span strong {
+  color: chartreuse;
+}
+/*# sourceMappingURL=main.css.map */
