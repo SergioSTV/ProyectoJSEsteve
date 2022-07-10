@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    
     <title>FIT
     </title>
 </head>
@@ -17,21 +18,21 @@
         </div>
         <div class="buscador">
             <input type="search" id="barra_buscador">
-            <input type="button" value="Buscar">
+            <input type="button" id="buscar" value="Buscar">
             
         </div>
-        <input type="button" id="sign-up" value="Registrate">
+        <input type="button"   id="sign-up" value="Comprar" >
     </div>
         
      
     
-    <nav>
+    <nav>s
         <ul class="navegador_lista">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="venta-de-productos.html">Venta de productos</a></li>
             <li><a href="calendario-de-eventos.html">Calendario de eventos</a></li>
             <li><a href="mitos.html">Mitos</a></li>
-            <li><a href="contacto.html">Contacto</a</li>
+            <li><a href="contacto.html">Contacto</a></li>
         </ul>
         </nav>
     </header>
@@ -40,7 +41,7 @@
 
     <section class="container-suplementos">
        <div class="container-prod">
-        <img class="producto_img" src="images/creatina.png"imagen de envase de creatina" height="" width="">
+        <img class="producto_img" src="images/creatina.png" alt="imagen de envase de creatina" height="" width="">
         <div class="prod_text"><h1>Descripción</h1>
             <p>
             Creatina enriquecida con taurina, leucina, beta alanina, arginina, vitaminas y minerales
@@ -90,17 +91,13 @@
         </p>
         </p>
             <h1>$2550</h1></div> </div>
-       <div></div>
-       <div></div>
-       <div></div>
-       <div></div>
-       <div></div>
+      
     </section>
    
 
 
     </div>
-    <img src="images/aceptamos-tarjetas.png" alt="">
+    <img src="images/aceptamos-tarjetas.png" id="tarjetas"alt="">
     
     <hr>    
     <footer><span>Creado por Sergio Esteve
@@ -108,5 +105,7 @@
     </span></footer>
     
     <p></p>
+    <script src="/ventas.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
